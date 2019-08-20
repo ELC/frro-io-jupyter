@@ -1,0 +1,7 @@
+# Extracted from https://github.com/binder-examples/jupyter-extension/blob/master/postBuild
+
+jupyter contrib nbextension install --user
+jupyter nbextension enable init_cell/main
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+jupyter trust PLC1.ipynb

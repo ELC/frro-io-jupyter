@@ -1,0 +1,13 @@
+channels:
+  - defaults
+  - damianavila82
+dependencies:
+  - ipython
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - scipy
+  - rise
+  - pip
+  - pip:
+    - jupyter-contrib-nbextensions
